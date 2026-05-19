@@ -94,6 +94,8 @@ A = abc
 
 Only create a polished diagram if the user explicitly wants a presentation-grade artifact.
 
+The optional asset `assets/handcopy-uv-spectrophotometer.svg` is a reusable simple example for UV-Vis instrument reports.
+
 ## Stop Conditions
 
 The task is not complete until:
@@ -103,4 +105,3 @@ The task is not complete until:
 - Any requested diagram exists and has been inspected.
 - Secret scan has no hits.
 - Temporary artifacts have been deleted and verified absent.
-
