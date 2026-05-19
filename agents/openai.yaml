@@ -1,0 +1,7 @@
+interface:
+  display_name: "Course Video Lab Report"
+  short_description: "Turn course videos into lab report drafts"
+  default_prompt: "Use $course-video-lab-report to extract a course video into a lab report draft with hand-copyable diagrams."
+policy:
+  allow_implicit_invocation: true
+
