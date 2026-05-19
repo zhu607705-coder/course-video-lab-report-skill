@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">紫外可见分光光度计手抄简图</title>
+  <desc id="desc">适合实验报告手抄的紫外可见分光光度计光路简图。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L9,5 L1,9 Z" fill="#111"/>
+    </marker>
+    <style>
+      text { font-family: Helvetica, Arial, sans-serif; fill: #111; }
+      .title { font-size: 28px; font-weight: 700; }
+      .label { font-size: 20px; font-weight: 700; }
+      .small { font-size: 16px; }
+      .tiny { font-size: 14px; }
+      .box { fill: #fff; stroke: #111; stroke-width: 3; rx: 8; }
+      .line { fill: none; stroke: #111; stroke-width: 3; marker-end: url(#arrow); }
+      .thin { fill: none; stroke: #111; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="900" height="900" fill="#fff"/>
+  <text class="title" x="450" y="42" text-anchor="middle">紫外可见分光光度计光路简图</text>
+
+  <g transform="translate(45 100)">
+    <rect class="box" x="0" y="0" width="120" height="90"/>
+    <text class="label" x="60" y="38" text-anchor="middle">光源</text>
+    <text class="tiny" x="60" y="66" text-anchor="middle">D2 / WI</text>
+  </g>
+
+  <path class="line" d="M170 145 L230 145"/>
+
+  <g transform="translate(235 100)">
+    <rect class="box" x="0" y="0" width="130" height="90"/>
+    <text class="label" x="65" y="36" text-anchor="middle">单色器</text>
+    <text class="tiny" x="65" y="64" text-anchor="middle">选定波长 λ</text>
+  </g>
+
+  <path class="line" d="M370 145 L430 145"/>
+  <text class="small" x="400" y="130" text-anchor="middle">I0</text>
+
+  <g transform="translate(435 88)">
+    <rect class="box" x="0" y="0" width="130" height="114"/>
+    <text class="label" x="65" y="34" text-anchor="middle">吸收池</text>
+    <rect class="thin" x="46" y="48" width="38" height="42" rx="4"/>
+    <path class="thin" d="M48 72 C58 66, 70 78, 82 70"/>
+    <text class="tiny" x="65" y="104" text-anchor="middle">b = 1 cm</text>
+  </g>
+
+  <path class="line" d="M570 145 L630 145"/>
+  <text class="small" x="600" y="130" text-anchor="middle">It</text>
+
+  <g transform="translate(625 100)">
+    <rect class="box" x="0" y="0" width="112" height="90"/>
+    <text class="label" x="56" y="38" text-anchor="middle">检测器</text>
+    <text class="tiny" x="56" y="66" text-anchor="middle">光信号</text>
+  </g>
+
+  <path class="line" d="M742 145 L790 145"/>
+
+  <g transform="translate(795 100)">
+    <rect class="box" x="0" y="0" width="72" height="90"/>
+    <text class="small" x="36" y="38" text-anchor="middle">读数</text>
+    <text class="tiny" x="36" y="66" text-anchor="middle">A</text>
+  </g>
+
+  <g transform="translate(95 255)">
+    <rect class="box" x="0" y="0" width="710" height="105"/>
+    <text class="label" x="355" y="34" text-anchor="middle">报告中配套写法</text>
+    <text class="small" x="34" y="66">T = It / I0</text>
+    <text class="small" x="214" y="66">A = lg(I0 / It) = -lgT</text>
+    <text class="small" x="500" y="66">A = abc</text>
+    <text class="tiny" x="34" y="92">定性：比较 λmax 和曲线形状；定量：固定 λ 和 b，用标准曲线 A = kC + b 计算浓度。</text>
+  </g>
+</svg>
